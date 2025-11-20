@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: multi-source-chatbot
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=False
+      - LOG_LEVEL=INFO
+      - EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=gemini-pro
+      - LLM_TEMPERATURE=0.7
+      - CHUNK_SIZE=500
+      - CHUNK_OVERLAP=100
+      - RETRIEVAL_TOP_K=3
+      - SIMILARITY_THRESHOLD=0.3
+      - DATA_DIR=/app/data
+      - LOG_DIR=/app/logs
+    volumes:
+      - chatbot_data:/app/data
+      - chatbot_logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  chatbot_data:
+    driver: local
+  chatbot_logs:
+    driver: local

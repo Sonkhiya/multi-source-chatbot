@@ -1,0 +1,62 @@
+2025-11-19 23:04:22,722 - chatbot - INFO - Initializing chatbot system...
+2025-11-19 23:04:22,738 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-19 23:05:16,128 - chatbot - INFO - Embedding model loaded successfully
+2025-11-19 23:05:16,128 - chatbot - ERROR - Failed to initialize chatbot system: 'Settings' object has no attribute 'LLM_MODEL'
+2025-11-19 23:06:58,238 - chatbot - INFO - Initializing chatbot system...
+2025-11-19 23:06:58,238 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-19 23:07:05,797 - chatbot - INFO - Embedding model loaded successfully
+2025-11-19 23:07:05,797 - chatbot - ERROR - Failed to initialize chatbot system: GROQ_API_KEY not set. Please set it in .env file
+2025-11-19 23:07:39,097 - chatbot - INFO - Initializing chatbot system...
+2025-11-19 23:07:39,107 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-19 23:07:46,995 - chatbot - INFO - Embedding model loaded successfully
+2025-11-19 23:07:46,995 - chatbot - ERROR - Failed to initialize chatbot system: GROQ_API_KEY not set. Please set it in .env file
+2025-11-20 14:13:06,801 - chatbot - INFO - Initializing chatbot system...
+2025-11-20 14:13:06,801 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-20 14:13:21,002 - chatbot - INFO - Embedding model loaded successfully
+2025-11-20 14:13:21,003 - chatbot - ERROR - Failed to initialize chatbot system: 'Settings' object has no attribute 'LLM_MODEL'
+2025-11-20 14:15:26,606 - chatbot - INFO - Initializing chatbot system...
+2025-11-20 14:15:26,606 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-20 14:15:34,149 - chatbot - INFO - Embedding model loaded successfully
+2025-11-20 14:15:34,149 - chatbot - ERROR - Failed to initialize chatbot system: 'Settings' object has no attribute 'LLM_MODEL'
+2025-11-20 14:17:20,199 - chatbot - INFO - Initializing chatbot system...
+2025-11-20 14:17:20,199 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-20 14:17:26,884 - chatbot - INFO - Embedding model loaded successfully
+2025-11-20 14:17:26,884 - chatbot - ERROR - Failed to initialize chatbot system: GROQ_API_KEY not set. Please set it in .env file
+2025-11-20 14:21:44,708 - chatbot - INFO - Initializing chatbot system...
+2025-11-20 14:21:44,724 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-20 14:21:51,927 - chatbot - INFO - Embedding model loaded successfully
+2025-11-20 14:21:51,927 - chatbot - INFO - Initializing Groq LLM with model: mixtral-8x7b-32768
+2025-11-20 14:21:54,497 - chatbot - INFO - Groq LLM initialized successfully
+2025-11-20 14:21:54,524 - chatbot - INFO - Chatbot system initialized successfully
+2025-11-20 14:22:45,675 - chatbot - INFO - Retrieving context for query: give me a summury of the document
+2025-11-20 14:22:47,263 - chatbot - WARNING - No chunks in vector store
+2025-11-20 14:22:47,263 - chatbot - INFO - Retrieved 0 relevant chunks
+2025-11-20 14:22:47,289 - chatbot - ERROR - Error generating answer with Groq: No module named 'langchain.schema'
+2025-11-20 14:22:47,289 - chatbot - ERROR - Error in generate_answer node: Error generating answer: No module named 'langchain.schema'
+2025-11-20 14:22:47,292 - chatbot - INFO - Query processed with 0 references
+2025-11-20 14:24:47,432 - chatbot - INFO - Initializing chatbot system...
+2025-11-20 14:24:47,448 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-20 14:24:53,182 - chatbot - INFO - Embedding model loaded successfully
+2025-11-20 14:24:53,182 - chatbot - INFO - Initializing Groq LLM with model: mixtral-8x7b-32768
+2025-11-20 14:24:54,624 - chatbot - INFO - Groq LLM initialized successfully
+2025-11-20 14:24:54,640 - chatbot - INFO - Chatbot system initialized successfully
+2025-11-20 14:25:18,909 - chatbot - INFO - Retrieving context for query: give me a summury of the document
+2025-11-20 14:25:18,956 - chatbot - WARNING - No chunks in vector store
+2025-11-20 14:25:18,956 - chatbot - INFO - Retrieved 0 relevant chunks
+2025-11-20 14:25:18,967 - chatbot - ERROR - Error generating answer with Groq: No module named 'langchain.schema'
+2025-11-20 14:25:18,972 - chatbot - ERROR - Error in generate_answer node: Error generating answer: No module named 'langchain.schema'
+2025-11-20 14:25:18,974 - chatbot - INFO - Query processed with 0 references
+2025-11-20 14:25:28,739 - chatbot - INFO - Shutting down chatbot system
+2025-11-20 14:25:59,434 - chatbot - INFO - Initializing chatbot system...
+2025-11-20 14:25:59,437 - chatbot - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-20 14:26:05,434 - chatbot - INFO - Embedding model loaded successfully
+2025-11-20 14:26:05,434 - chatbot - INFO - Initializing Groq LLM with model: mixtral-8x7b-32768
+2025-11-20 14:26:06,915 - chatbot - INFO - Groq LLM initialized successfully
+2025-11-20 14:26:06,921 - chatbot - INFO - Chatbot system initialized successfully
+2025-11-20 14:26:38,554 - chatbot - INFO - Retrieving context for query: give me a summury of the document
+2025-11-20 14:26:38,604 - chatbot - WARNING - No chunks in vector store
+2025-11-20 14:26:38,604 - chatbot - INFO - Retrieved 0 relevant chunks
+2025-11-20 14:26:39,338 - chatbot - ERROR - Error generating answer with Groq: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-11-20 14:26:39,338 - chatbot - ERROR - Error in generate_answer node: Error generating answer: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-11-20 14:26:39,338 - chatbot - INFO - Query processed with 0 references
+2025-11-20 14:26:54,068 - chatbot - INFO - Shutting down chatbot system

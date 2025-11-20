@@ -1,0 +1,31 @@
+Sample Document for Testing
+
+This is a comprehensive guide to building production-ready systems.
+
+Key Principles:
+1. Clean Architecture - Separate concerns into distinct layers
+2. Scalability - Design for growth from day one
+3. Observability - Comprehensive logging and monitoring
+4. Documentation - Clear, accessible technical documentation
+5. Testing - Automated tests for all critical paths
+
+Best Practices:
+- Use type hints throughout your codebase
+- Follow consistent naming conventions
+- Document complex logic with clear variable names
+- Keep functions small and focused
+- Write tests alongside features
+
+Performance Tips:
+- Cache frequently accessed data
+- Use async operations for I/O
+- Implement proper error handling
+- Monitor resource usage
+- Profile before optimizing
+
+Deployment:
+- Containerize with Docker
+- Use orchestration tools like Kubernetes
+- Implement health checks
+- Plan for graceful shutdowns
+- Monitor in production
